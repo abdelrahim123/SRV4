@@ -138,7 +138,7 @@
     flex-wrap: wrap;
     margin-top: 50px ;
 }
-.mainServices >div
+.mainServices .all
 {
     width: 237px;
     margin-right: 20px;
@@ -152,26 +152,28 @@
 
 
 }
-.mainServices >div img
+.mainServices .all img
 {
-width: 70%
-
-
+  width: 70%
 }
-.mainServices .serv
+.allCardContent
 {
-    width: 280px;
-    margin-right: 20px;
-    margin-left: 20px ; 
-   background: #ffffff;
-   -webkit-border-radius:20px;
-   -o-border-radius:20px;
-   -moz-border-radius:20px;
-   border-radius:20px;
-    margin-bottom: 30px
-
+    width: 45%
 }
-
+.form-control
+{
+    border-radius: 50px;
+    background-color: #f7f9f9;
+    padding: 12px 30px;
+    transition: all .3s ease;
+    font-size: 16px;
+    color: #acacac;
+    margin-bottom: 30px;    
+}
+.inp
+{
+   padding: 26px 40px; 
+}
 /*****Footer*******/
 footer
 {
@@ -195,4 +197,18 @@ footer
     footer {
         padding-top: 550px
     }
+}
+/*********Using Page************/
+.questionBox
+{
+     border: 1px solid #000 ;
+     margin-bottom: 20px;
+     text-align: right;    
+     border-radius: 50px;
+     background-color: #FFF;
+     padding: 12px 30px;
+     transition: all .3s ease;
+     font-size: 16px;
+     color: #000;
+     margin-bottom: 30px;   
 }
