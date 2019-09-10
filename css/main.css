@@ -39,6 +39,11 @@
     height: 800px ; 
     background-size: cover;         
 }
+.MainPicDivRequist
+{
+    height: 300px ;
+    background-color:#1bacc6;
+}
 .navbar-brand
 {
     font-family: 'Pacifico';
@@ -62,7 +67,7 @@
     border: 1px solid #086272; 
     text-align: center;
 }
-.card
+.card,.card2
 {
     text-align: right;
     color: black;
@@ -72,6 +77,12 @@
     border-radius: 20px;
     box-shadow: 0px 13px 12px #ddd;
     margin-top: 100px
+}
+.card2
+{
+    margin-top: 50px;
+    padding-top: 0; 
+    padding-bottom: 0
 }
 .search-btn
 {
@@ -167,8 +178,7 @@
     padding: 12px 30px;
     transition: all .3s ease;
     font-size: 16px;
-    color: #acacac;
-    margin-bottom: 30px;    
+    color: #acacac;    
 }
 .inp
 {
