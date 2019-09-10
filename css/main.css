@@ -180,6 +180,15 @@
     font-size: 16px;
     color: #acacac;    
 }
+.form-control2
+{
+    border-radius: 50px;
+    background-color: #ededed;
+    padding: 22px 40px;
+    transition: all .3s ease;
+    font-size: 16px;
+    color: #acacac;    
+}
 .inp
 {
    padding: 26px 40px; 
